@@ -1,5 +1,5 @@
 <?php
-include_once 'connect.php';
+include_once 'config.php';
 
 $tenkhoahoc = $tengiangvien = $mota = $kienthuc = $images = $giatien = $giaotrinh = " ";
 $tenkhoahoc_err = $tengiangvien_err = $mota_err = $kienthuc_err = $giatien_err = $giaotrinh_err = "";
@@ -82,7 +82,7 @@ if(isset($_POST['submit'])){
 ?>
 <script>
     function add(){
-        window.location.href = "http://localhost/INSERT/index.php";
+        window.location.href = "http://localhost/INSERT/index1.php";
     }
     add();
 </script>
